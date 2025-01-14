@@ -20,6 +20,9 @@ public class ClassB {
 	System.out.println("monish");
 
 }
+   private void stfPhone() {
+	System.out.println("9092798486");
+}
 
 	public static void main(String[] args) {
 		
@@ -27,6 +30,9 @@ public class ClassB {
 		b.stfName();
 		b.stfLocation();
 		b.stfId();
+		b.stfCollege();
 		b.stfEmployee();
+		b.stfPhone();
+		
 	}
 }

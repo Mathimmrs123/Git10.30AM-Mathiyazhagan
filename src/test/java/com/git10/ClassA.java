@@ -18,6 +18,9 @@ public class ClassA {
 	private void empId() {
 		System.out.println("909078");
 	}
+	private void empPhone() {
+		System.out.println("8270319732");
+	}
 	public static void main(String[] args) {
 		ClassA a=new ClassA();
 		
@@ -25,6 +28,7 @@ public class ClassA {
 		a.empLocation();
 		a.empCompany();
 		a.empId();
+	    a.empPhone();
 		
 	}
 
